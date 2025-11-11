@@ -1,0 +1,90 @@
+FREE STOCK IMAGES USED IN THIS WEBSITE
+========================================
+
+All images are from Unsplash.com - Free to use for commercial projects
+License: Free for commercial and non-commercial use (No attribution required)
+
+IMAGE LIST:
+-----------
+
+1. HOME PAGE - Hero Background
+   URL: https://images.unsplash.com/photo-1560518883-ce09059eeffa
+   Description: Modern white house with large windows
+   Photographer: Photo by Ralph Ravi Kayden on Unsplash
+
+2. ABOUT PAGE - Header Background
+   URL: https://images.unsplash.com/photo-1497366216548-37526070297c
+   Description: Modern office workspace with laptops
+   Photographer: Photo by Austin Distel on Unsplash
+
+3. ABOUT PAGE - Office Building Image
+   URL: https://images.unsplash.com/photo-1486406146926-c627a92ad1ab
+   Description: Modern glass office building exterior
+   Photographer: Photo by Breno Assis on Unsplash
+
+4. ABOUT PAGE - Team Member 1 (John Anderson)
+   URL: https://images.unsplash.com/photo-1560250097-0b93528c311a
+   Description: Professional businessman in suit
+   Photographer: Photo by LinkedIn Sales Solutions on Unsplash
+
+5. ABOUT PAGE - Team Member 2 (Sarah Mitchell)
+   URL: https://images.unsplash.com/photo-1573496359142-b8d87734a5a2
+   Description: Professional businesswoman smiling
+   Photographer: Photo by Christina @ wocintechchat.com on Unsplash
+
+6. ABOUT PAGE - Team Member 3 (Michael Chen)
+   URL: https://images.unsplash.com/photo-1472099645785-5658abf4ff4e
+   Description: Professional man portrait
+   Photographer: Photo by Amin Moshrefi on Unsplash
+
+7. ABOUT PAGE - Team Member 4 (Emily Rodriguez)
+   URL: https://images.unsplash.com/photo-1580489944761-15a19d654956
+   Description: Professional woman portrait
+   Photographer: Photo by Toa Heftiba on Unsplash
+
+8. SERVICES PAGE - Header Background
+   URL: https://images.unsplash.com/photo-1454165804606-c3d57bc86b40
+   Description: Business documents and laptop
+   Photographer: Photo by Scott Graham on Unsplash
+
+9. CONTACT PAGE - Header Background
+   URL: https://images.unsplash.com/photo-1423666639041-f56000c27a9a
+   Description: Modern office building at dusk
+   Photographer: Photo by Scott Webb on Unsplash
+
+10. RESOURCES PAGE - Header Background
+    URL: https://images.unsplash.com/photo-1450101499163-c8848c66ca85
+    Description: Business charts and analytics
+    Photographer: Photo by Carlos Muza on Unsplash
+
+HOW TO REPLACE IMAGES:
+-----------------------
+
+1. Visit Unsplash.com
+2. Search for your desired image type (e.g., "real estate", "office", "business")
+3. Click on an image
+4. Click "Share" or copy the direct image URL
+5. Replace the URL in the HTML file
+6. Add parameters for sizing:
+   - ?w=1920 (for hero images)
+   - ?w=800 (for content images)
+   - ?w=400 (for team photos)
+   - &q=80 (for quality, 80% is recommended)
+
+Example: https://images.unsplash.com/photo-XXXXXX?w=1920&q=80
+
+ALTERNATIVE FREE IMAGE SOURCES:
+--------------------------------
+- Pexels.com
+- Pixabay.com
+- Burst.shopify.com
+- Freepik.com (with attribution)
+
+NOTES:
+------
+- All images are optimized with appropriate sizing parameters
+- Images are hotlinked from Unsplash CDN (fast loading)
+- No attribution required but always appreciated
+- Images can be used for commercial purposes
+- Consider downloading and hosting locally for full control
+

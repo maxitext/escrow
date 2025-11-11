@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Access helpful resources including FAQs, testimonials, forms, and account lookup for Prime Title Inc.">
+    <title>Resources - Prime Title Inc.</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/pages.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header & Navigation -->
+    <header class="header">
+        <div class="top-bar">
+            <div class="container">
+                <div class="top-bar-content">
+                    <div class="contact-info">
+                        <a href="mailto:admin@primetitle-inc.com"><i class="fas fa-envelope"></i> admin@primetitle-inc.com</a>
+                    </div>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <nav class="navbar">
+            <div class="container">
+                <div class="nav-wrapper">
+                    <div class="logo">
+                        <a href="index.html">
+                            <span class="logo-text">Prime Title Inc.</span>
+                        </a>
+                    </div>
+                    
+                    <div class="nav-menu" id="navMenu">
+                        <ul class="nav-list">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="about.html">About Us</a></li>
+                    <li class="dropdown">
+                                <a href="services.html">Services <i class="fas fa-chevron-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="services.html#bond-for-deed">Bond for Deed Contracts</a></li>
+                            <li><a href="services.html#mortgage-servicing">Private Mortgage Servicing</a></li>
+                            <li><a href="services.html#lease-purchase">Lease Purchase Agreements</a></li>
+                            <li><a href="services.html#wrap-around">Wrap-Around Mortgages</a></li>
+                                    <li><a href="services.html#installment">Installment Option Contracts</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="resources.html" class="active">Resources <i class="fas fa-chevron-down"></i></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#account-lookup">Account Lookup</a></li>
+                                    <li><a href="#forms">Forms & Documents</a></li>
+                                    <li><a href="#testimonials">Testimonials</a></li>
+                                    <li><a href="#faqs">FAQs</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="contact.html">Contact Us</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="nav-cta">
+                        <a href="tel:+15555551234" class="phone-number">
+                            <i class="fas fa-phone"></i> (555) 555-1234
+                        </a>
+                        <a href="contact.html" class="btn btn-primary">Get Started</a>
+                    </div>
+                    
+                    <button class="mobile-toggle" id="mobileToggle">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Page Header -->
+    <section class="page-header" style="background-image: url('https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=1920&q=80'); background-size: cover; background-position: center;">
+        <div class="container">
+            <h1>Resources</h1>
+            <p>Tools and Information to Help You Navigate Your Escrow Needs</p>
+        </div>
+    </section>
+
+    <!-- Account Lookup -->
+    <section class="section" id="account-lookup">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">Account Access</span>
+                <h2 class="section-title">Customer Account Lookup</h2>
+                <p class="section-description">Access your account information, payment history, and important documents.</p>
+            </div>
+            
+            <div class="account-lookup-form">
+                <form class="lookup-form">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="accountNumber">Account Number</label>
+                            <input type="text" id="accountNumber" name="accountNumber" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="lastName">Last Name</label>
+                            <input type="text" id="lastName" name="lastName" required>
+                        </div>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Access Account</button>
+                </form>
+                
+                <div class="account-info">
+                    <p><i class="fas fa-info-circle"></i> Don't have your account number? Contact us at <a href="tel:+15555551234">(555) 555-1234</a> or <a href="mailto:admin@primetitle-inc.com">admin@primetitle-inc.com</a></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Forms & Documents -->
+    <section class="section forms-section" id="forms">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">Downloads</span>
+                <h2 class="section-title">Forms & Documents</h2>
+                <p class="section-description">Download the forms and documents you need for your transaction.</p>
+            </div>
+            
+            <div class="forms-grid">
+                <div class="form-card">
+                    <div class="form-icon">
+                        <i class="fas fa-file-pdf"></i>
+                    </div>
+                    <h3>Bond for Deed Application</h3>
+                    <p>Complete application form for Bond for Deed services.</p>
+                    <a href="#" class="btn btn-secondary">Download PDF</a>
+                </div>
+
+                <div class="form-card">
+                    <div class="form-icon">
+                        <i class="fas fa-file-pdf"></i>
+                    </div>
+                    <h3>Payment Authorization Form</h3>
+                    <p>Authorize automatic payment deductions from your account.</p>
+                    <a href="#" class="btn btn-secondary">Download PDF</a>
+                </div>
+
+                <div class="form-card">
+                    <div class="form-icon">
+                        <i class="fas fa-file-pdf"></i>
+                    </div>
+                    <h3>Mortgage Servicing Agreement</h3>
+                    <p>Agreement for private mortgage servicing services.</p>
+                    <a href="#" class="btn btn-secondary">Download PDF</a>
+                </div>
+
+                <div class="form-card">
+                    <div class="form-icon">
+                        <i class="fas fa-file-pdf"></i>
+                    </div>
+                    <h3>Change of Address Form</h3>
+                    <p>Update your contact information on file.</p>
+                    <a href="#" class="btn btn-secondary">Download PDF</a>
+                </div>
+
+                <div class="form-card">
+                    <div class="form-icon">
+                        <i class="fas fa-file-pdf"></i>
+                    </div>
+                    <h3>Payoff Request Form</h3>
+                    <p>Request a payoff quote for your account.</p>
+                    <a href="#" class="btn btn-secondary">Download PDF</a>
+                </div>
+
+                <div class="form-card">
+                    <div class="form-icon">
+                        <i class="fas fa-file-pdf"></i>
+                    </div>
+                    <h3>Insurance Information Form</h3>
+                    <p>Submit property insurance information.</p>
+                    <a href="#" class="btn btn-secondary">Download PDF</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="section testimonials-full" id="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">Client Feedback</span>
+                <h2 class="section-title">What Our Clients Say</h2>
+            </div>
+            
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="testimonial-content">
+                        <i class="fas fa-quote-left quote-icon"></i>
+                        <p>Prime Title Inc. made our home purchase seamless. Their Bond for Deed expertise helped us understand every step of the process. Highly professional and responsive team!</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-info">
+                            <h4>Sarah & Michael Johnson</h4>
+                            <p>Homebuyers</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="testimonial-content">
+                        <i class="fas fa-quote-left quote-icon"></i>
+                        <p>As a real estate investor, I've worked with many escrow companies. Prime Title Inc. stands out for their efficiency, accuracy, and professionalism. They're my go-to for all closings.</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-info">
+                            <h4>Robert Martinez</h4>
+                            <p>Real Estate Investor</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="testimonial-content">
+                        <i class="fas fa-quote-left quote-icon"></i>
+                        <p>Prime Title Inc. has handled all our firm's seller-financed transactions. Their attention to detail and quick turnaround times make them invaluable partners. Exceptional service!</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-info">
+                            <h4>Jennifer Williams</h4>
+                            <p>Real Estate Attorney</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="testimonial-content">
+                        <i class="fas fa-quote-left quote-icon"></i>
+                        <p>Working with Prime Title Inc. was a breath of fresh air. They explained everything clearly and handled all the paperwork efficiently. I highly recommend their services.</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-info">
+                            <h4>David Thompson</h4>
+                            <p>Property Seller</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="testimonial-content">
+                        <i class="fas fa-quote-left quote-icon"></i>
+                        <p>The mortgage servicing from Prime Title Inc. has been outstanding. Monthly statements are always accurate and on time. They make managing my investment property stress-free.</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-info">
+                            <h4>Lisa Anderson</h4>
+                            <p>Property Owner</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="testimonial-content">
+                        <i class="fas fa-quote-left quote-icon"></i>
+                        <p>I've been referring my clients to Prime Title Inc. for years. They consistently deliver professional service and make complex transactions simple for everyone involved.</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-info">
+                            <h4>Mark Peterson</h4>
+                            <p>Real Estate Agent</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQs -->
+    <section class="section faqs-section" id="faqs">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">FAQs</span>
+                <h2 class="section-title">Frequently Asked Questions</h2>
+            </div>
+            
+            <div class="faqs-wrapper">
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>What is a Bond for Deed?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>A Bond for Deed (also called a Contract for Deed or Land Contract) is a type of seller financing where the buyer makes payments directly to the seller over time. The seller retains legal title to the property until the buyer completes all payments, at which point the deed is transferred to the buyer.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>How does your mortgage servicing work?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>We collect monthly payments from borrowers, allocate funds between principal and interest, manage escrow accounts for taxes and insurance, provide monthly statements, handle annual tax reporting, and coordinate payoff requests. We serve as a neutral third party to ensure all parties are protected.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>What are your fees for escrow services?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Our fees vary depending on the type of service and complexity of the transaction. We offer competitive, transparent pricing with no hidden costs. Contact us for a detailed quote based on your specific needs.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>How long does the escrow process take?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>The timeline varies depending on the type of transaction and how quickly we receive all necessary documentation. Typically, we can complete setup within 5-10 business days once we have all required information and documents.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Can I make payments online?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Yes! We offer multiple payment options including online payments, automatic ACH withdrawals, check payments, and wire transfers. You can set up automatic payments for convenience and peace of mind.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>What happens if a payment is late?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>We follow the terms outlined in your contract. Typically, there is a grace period, after which late fees may apply. We'll communicate with both parties and work to resolve any payment issues promptly and professionally.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Do you handle tax and insurance escrow?</h3>
+                        <i class="fas fa-chevron-down"></i>
+            </div>
+                    <div class="faq-answer">
+                        <p>Yes, we can manage escrow accounts for property taxes and insurance. We collect these funds as part of your monthly payment, monitor due dates, and ensure timely payment to the appropriate entities.</p>
+        </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>How do I request a payoff quote?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>You can request a payoff quote by contacting us via phone, email, or through your online account portal. We'll provide a detailed payoff statement showing the exact amount needed to satisfy the obligation, including the expiration date of the quote.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>What states do you service?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>We primarily serve clients nationwide for most of our escrow services. However, some services may be limited based on state-specific regulations. Contact us to discuss your specific location and needs.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="section cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Still Have Questions?</h2>
+                <p>Our team is here to help. Contact us today for answers to your specific questions.</p>
+                <a href="contact.html" class="btn btn-primary btn-lg">Contact Us</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>About Prime Title Inc.</h3>
+                    <p>Professional escrow and title services provider committed to secure, compliant real estate transactions. We handle the details so you can close with confidence.</p>
+                    <div class="footer-social">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+
+                <div class="footer-column">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="services.html#bond-for-deed">Bond for Deed</a></li>
+                        <li><a href="services.html#mortgage-servicing">Mortgage Servicing</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-column">
+                    <h3>Resources</h3>
+                    <ul class="footer-links">
+                        <li><a href="#faqs">FAQs</a></li>
+                        <li><a href="#testimonials">Testimonials</a></li>
+                        <li><a href="#forms">Forms & Documents</a></li>
+                        <li><a href="#account-lookup">Account Lookup</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-column">
+                    <h3>Contact Info</h3>
+                    <ul class="footer-contact">
+                        <li>
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <strong>Call Us Today</strong>
+                                <a href="tel:+15555551234">(555) 555-1234</a>
+                            </div>
+                        </li>
+                        <li>
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <strong>Email Support</strong>
+                                <a href="mailto:admin@primetitle-inc.com">admin@primetitle-inc.com</a>
+                            </div>
+                        </li>
+                        <li>
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <strong>Our Location</strong>
+                                <span>123 Main Street<br>Your City, ST 12345</span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2025 Prime Title Inc. All Rights Reserved.</p>
+                <div class="footer-bottom-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+    <script src="js/resources.js"></script>
+</body>
+</html>
