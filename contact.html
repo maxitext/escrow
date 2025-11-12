@@ -161,9 +161,10 @@
                         <h2>Send Us a Message</h2>
                         <p>Fill out the form below and we'll get back to you as soon as possible.</p>
                         
-                        <form class="contact-form" id="contactForm" action="send-email.php" method="POST">
-                            <!-- Honeypot field for spam protection (hidden from users) -->
-                            <input type="text" name="website" style="display:none" tabindex="-1" autocomplete="off">
+                        <form class="contact-form" id="contactForm" name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="/thank-you.html">
+                            <!-- Netlify bot field for spam protection -->
+                            <input type="hidden" name="form-name" value="contact">
+                            <input type="text" name="bot-field" style="display:none" tabindex="-1" autocomplete="off">
                             
                             <div class="form-group">
                                 <label for="name">Full Name *</label>

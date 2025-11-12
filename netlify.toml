@@ -1,0 +1,9 @@
+# Netlify Configuration for Prime Title Inc.
+
+[build]
+  publish = "."
+
+# Form notifications - emails will be sent to admin@primetitle-inc.com
+[[plugins]]
+  package = "@netlify/plugin-forms"
+
