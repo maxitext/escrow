@@ -217,11 +217,11 @@ Message:
 Received: " . date('F j, Y, g:i a') . "
 ";
 
-// Try to send email using PHP mail() function
+// Send email using PHP mail() function
 $headers = [
     'MIME-Version: 1.0',
     'Content-Type: text/html; charset=UTF-8',
-    'From: ' . SITE_NAME . ' <' . SMTP_USERNAME . '>',
+    'From: ' . SITE_NAME . ' <' . ADMIN_EMAIL . '>',
     'Reply-To: ' . $name . ' <' . $email . '>',
     'X-Mailer: PHP/' . phpversion()
 ];
