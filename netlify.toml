@@ -3,7 +3,6 @@
 [build]
   publish = "."
 
-# Form notifications - emails will be sent to admin@primetitle-inc.com
-[[plugins]]
-  package = "@netlify/plugin-forms"
+# Netlify Forms work automatically with data-netlify="true" in the form
+# No plugin needed - configure email notifications in Netlify dashboard
 
